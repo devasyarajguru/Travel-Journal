@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin:0;
+}
+.navbar--container
+{
+  background-color: #F55A5A;
+  margin: 0px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.navbar--container span
+{
+    padding: 5px;
+    font-family: 'Headland One', serif;
+}
