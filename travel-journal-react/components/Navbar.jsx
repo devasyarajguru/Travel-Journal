@@ -4,7 +4,7 @@ export default function Navbar()
  return(
     <>
         <nav className="navbar--container">
-        <PublicIcon/><span>My Travel Journal</span> 
+        <PublicIcon fontSize='large'/><span>My Travel Journal</span> 
         </nav>
     </>
  )       

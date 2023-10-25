@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@500&display=swap');
 *
 {
     box-sizing: border-box;
@@ -23,4 +25,72 @@ body
 {
     padding: 5px;
     font-family: 'Headland One', serif;
+}
+
+.card--container
+{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.card--container img
+{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card--content
+{
+    margin: 10px;
+    padding: 10px;
+}
+.card--location
+{
+    margin: 10px;
+    padding: 10px;
+}
+
+.card--location-text
+{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+}
+
+.card--location-maps
+{
+    margin-left: 10px;
+    text-decoration:underline;
+    color: #918E9B;
+}
+.card--title
+{
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Sometype Mono', monospace;
+}
+
+.card--date
+{
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Headland One', serif;
+}
+
+.card--desc
+{
+    margin: 10px;
+    padding: 10px;
+    width: 800px;
+    font-size: 20px;
+    /* font-family: 'Sometype Mono', monospace; */
+    font-family: 'Roboto', sans-serif;
 }
